@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.contarner_bar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bar{
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+
+.fill_bar{
+    border: 1px solid black;
+    width: 10%;
+    height: 50px;
+    position: absolute;
+    top: -4%;
+    background-color: black;
+    cursor: pointer
+}
+
+.range_bar{
+    text-align: center;
+    color: black;
+}
